@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1450">
+    <!--main 스와이퍼-->
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <title>Plantly</title>
+    <!--aos-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!--폰트-->
+    <link rel="stylesheet" href="./font/jamsil/stylesheet.css">
+    <link rel="stylesheet" href="./font/pretndard/pretendard.css">
+    <link rel="stylesheet" href="./font/magical_night/stylesheet.css">
+    <!--css파일-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./images/main/favicon.png" type="image/x-icon">
+
+
+</head>
+
+<body>
+    <header class="transiton">
+        <div class="header_inner">
+            <h1 class="logo"><a href="./index.html"><img src="./images/main/logo.png" alt="메인로고"></a></h1>
+            <ul class="gnb">
+                <li>
+                    <a href="./sub1_about.html"> ABOUT</a>
+                    <ul class="sub">
+                        <li><a href="./sub1_about.html#brand_story">
+                                <span>스토리</span>
+                            </a></li>
+                        <li><a href="./sub1_about.html#brand_slogan">
+                                <span>슬로건</span></a></li>
+                        <li><a href="./sub1_about.html#brnad_logo">
+                                <span>로고</span>
+                            </a></li>
+                        <li><a href="./sub1_about.html#eco">
+                                <span> 친환경 패키지</span>
+
+                            </a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./sub2_01_care.html">STORE</a>
+                    <ul class="sub">
+                        <li><a href="./sub2_01_care.html">
+                                <span>Care</span></a></li>
+                        <li><a href="./sub2_02_kit.html">
+                                <span>KiT</span></a></li>
+                        <li><a href="./sub2_03_pot.html"><span>Pot</span></a></li>
+                        <li><a href="./sub2_04_tool.html"><span>Tool</span></a></li>
+                    </ul>
+                </li>
+                <li><a href="./sub3_community.html">COMMUNITY</a>
+                    <ul class="sub">
+                        <li><a href="./sub3_community.html#event"><span>이벤트</span></a></li>
+                        <li><a href="./sub3_community.html#notice"><span>공지사항</span></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!--header_inner-->
+        <div class="sub_bg"></div>
+    </header>
+
+    <div id="main_banner">
+        <!-- Swiper -->
+        <div class="swiper mb_swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="./sub2_01_care.html"><img src="./images/main/main_banner02.jpg" alt="메인배너2"></a>
+
+                </div>
+                <!--swiper-slide-->
+                <div class="swiper-slide">
+                    <a href="./sub2_01_care.html"> <img src="./images/main/main_banner01.jpg" alt="메인배너1"></a>
+                </div><!--swiper-slide-->
+
+            </div><!--swiper-wrapper-->
+            <div class="swiper-button-next mb_next"></div>
+            <div class="swiper-button-prev mb_prev"></div>
+        </div><!--swiper-->
+
+        <div class="main_flow_hidden">
+            <div class="text_slide_warpper">
+                <div class="text_box">
+                    <p>Lovely family, plantly! <img src="./images/main/mainbanner_plant_shap.png" alt="로고모양"></p>
+                    <p>Lovely family, plantly! <img src="./images/main/mainbanner_plant_shap.png" alt="로고모양"></p>
+                    <p>Lovely family, plantly! <img src="./images/main/mainbanner_plant_shap.png" alt="로고모양"></p>
+                    <p>Lovely family, plantly! <img src="./images/main/mainbanner_plant_shap.png" alt="로고모양"></p>
+                    <p>Lovely family, plantly! <img src="./images/main/mainbanner_plant_shap.png" alt="로고모양"></p>
+                    <p>Lovely family, plantly! <img src="./images/main/mainbanner_plant_shap.png" alt="로고모양"></p>
+                    <p>Lovely family, plantly! <img src="./images/main/mainbanner_plant_shap.png" alt="로고모양"></p>
+                </div><!--text_box-->
+                <div class="text_box">
+                    <p>Lovely family, plantly! <img src="./images/main/mainbanner_plant_shap.png" alt="로고모양"></p>
+                    <p>Lovely family, plantly! <img src="./images/main/mainbanner_plant_shap.png" alt="로고모양"></p>
+                    <p>Lovely family, plantly! <img src="./images/main/mainbanner_plant_shap.png" alt="로고모양"></p>
+                    <p>Lovely family, plantly! <img src="./images/main/mainbanner_plant_shap.png" alt="로고모양"></p>
+                    <p>Lovely family, plantly! <img src="./images/main/mainbanner_plant_shap.png" alt="로고모양"></p>
+                    <p>Lovely family, plantly! <img src="./images/main/mainbanner_plant_shap.png" alt="로고모양"></p>
+                    <p>Lovely family, plantly! <img src="./images/main/mainbanner_plant_shap.png" alt="로고모양"></p>
+                </div><!--text_box-->
+            </div><!--text_slide_warpper-->
+        </div><!--flow_hidden-->
+    </div><!--main_banner-->
+
+
+    <div id="best" data-aos="fade-up" data-aos-duration="1000">
+        <div class="title_box">
+            <h1 class="title">
+                #BEST
+            </h1>
+            <p class="sub_title">
+                초보 식집사도 <br>
+                어려움 없이 사용할 수 있는 <br>
+                베스트 아이템
+            </p>
+            <div class="btn">
+                <a href="./sub2_01_care.html" type="button" class="btn_bubble">
+                    더보기
+                    <span class="btn_bubble_inner">
+                        <span class="btn_bubble_itembox">
+                            <span class="btn_bubble_item"></span>
+                            <span class="btn_bubble_item"></span>
+                            <span class="btn_bubble_item"></span>
+                            <span class="btn_bubble_item"></span>
+                        </span>
+                    </span>
+                </a>
+            </div><!--btn-->
+        </div><!--title_box-->
+
+        <div class="best_item_box">
+            <!-- Swiper -->
+            <div class="swiper best_swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="./sub2_01_care.html">
+                            <img src="./images/main/best_item01.png" alt="베스트아이템1">
+                            <div class="best_text">
+                                <h2>식물영양제 <br>
+                                    Foliar Spray </h2>
+                                <h3>
+                                    영양은 우리가 책임질게요 <br>
+                                    뿌리기만 하세요!
+                                </h3>
+                                <p>16,000원</p>
+                                <ul>
+                                    <li><a href="#"><img src="./images/main/best_icon1.png" alt="찜아이콘"></a></li>
+                                    <li><a href="#"><img src="./images/main/best_icon2.png" alt="장바구니아이콘"></a></li>
+                                    <li><a href="#"><img src="./images/main/best_icon3.png" alt="결제아이콘"></a></li>
+                                </ul>
+                            </div><!--best_text-->
+                        </a>
+                    </div><!--swiper-slide-->
+                    <div class="swiper-slide">
+                        <a href="./sub2_01_care.html">
+                            <img src="./images/main/best_item02.png" alt="베스트아이템2">
+                            <div class="best_text">
+                                <h2>식물 광택제 <br>
+                                    Leaf Shine </h2>
+                                <h3>
+                                    100% 천연 식물액<br>
+                                    잎을 빛나고 윤기있게 ! <br>
+                                </h3>
+                                <p>18,000원</p>
+                                <ul>
+                                    <li><a href="#"><img src="./images/main/best_icon1.png" alt="찜아이콘"></a></li>
+                                    <li><a href="#"><img src="./images/main/best_icon2.png" alt="장바구니아이콘"></a></li>
+                                    <li><a href="#"><img src="./images/main/best_icon3.png" alt="결제아이콘"></a></li>
+                                </ul>
+                            </div><!--best_text-->
+                        </a>
+                    </div> <!--swiper-slide-->
+                    <div class="swiper-slide">
+                        <a href="./sub2_01_care.html">
+                            <img src="./images/main/best_item03.png" alt="베스트아이템3">
+                            <div class="best_text">
+                                <h2>벌레 퇴치제 리필 <br>
+                                    Bug repellent Refill
+                                </h2>
+                                <h3>
+                                    우리집 초록이들을 안전하게 !<br>
+                                    대용량으로 만나보세요<br>
+                                </h3>
+                                <p>
+                                    <span class="sale">5%</span>20,900원<span class="gray_text">22,000원</span>
+                                </p>
+                                <ul>
+                                    <li><a href="#"><img src="./images/main/best_icon1.png" alt="찜아이콘"></a></li>
+                                    <li><a href="#"><img src="./images/main/best_icon2.png" alt="장바구니아이콘"></a></li>
+                                    <li><a href="#"><img src="./images/main/best_icon3.png" alt="결제아이콘"></a></li>
+                                </ul>
+                            </div><!--best_text-->
+                        </a>
+                    </div>
+                    <!--swiper-slide-->
+                    <div class="swiper-slide">
+                        <a href="./sub2_01_care.html">
+                            <img src="./images/main/best_item04.png" alt="베스트아이템4">
+                            <div class="best_text">
+                                <h2>벌레 퇴치제 <br>
+                                    Bug repellent</h2>
+                                <h3>
+                                    벌레로부터 안전하게 <br>
+                                    우리집 초록이들을 보호하세요<br>
+                                </h3>
+                                <p>16,000원</p>
+                                <ul>
+                                    <li><a href="#"><img src="./images/main/best_icon1.png" alt="찜아이콘"></a></li>
+                                    <li><a href="#"><img src="./images/main/best_icon2.png" alt="장바구니아이콘"></a></li>
+                                    <li><a href="#"><img src="./images/main/best_icon3.png" alt="결제아이콘"></a></li>
+                                </ul>
+                            </div><!--best_text-->
+                        </a>
+                    </div><!--swiper-slide-->
+                </div><!--swiper-wrapper-->
+            </div><!--swiper-->
+            <div class="nav_wrapper">
+                <div class="swiper-button-next  best_next"></div>
+                <div class="swiper-button-prev best_prev"></div>
+            </div><!--nav_wrapper-->
+        </div><!--best_item_box-->
+    </div><!--best-->
+
+
+
+    <div id="new">
+        <!--배경이미지-->
+        <div class="new_inner" data-aos="zoom-in">
+            <!--가운데 정렬, 투명 배경-->
+            <div class="title_box">
+                <h1 class="title">
+                    #NEW
+                </h1>
+                <p class="sub_title">
+                    Plantly만의 <br>
+                    새로운 제품을 <br>
+                    만나보세요
+                </p>
+                <div class="btn">
+                    <a href="./sub2_02_kit.html" type="button" class="btn_bubble btn_white">
+                        더보기
+                        <span class="btn_bubble_inner">
+                            <span class="btn_bubble_itembox">
+                                <span class="btn_bubble_item"></span>
+                                <span class="btn_bubble_item"></span>
+                                <span class="btn_bubble_item"></span>
+                                <span class="btn_bubble_item"></span>
+                            </span>
+                        </span>
+                    </a>
+                </div><!--btn-->
+            </div><!--title_box-->
+            <div class="new_item">
+                <!-- Swiper -->
+                <div class="swiper new_swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="./sub2_02_kit.html">
+                                <div class="new_img">
+                                    <img src="./images/main/new_item_yellow.png" alt="당근키트">
+                                    <ul class="icon">
+                                        <li><img src="./images/main/icon01.png" alt="찜아이콘"></li>
+                                        <li><img src="./images/main/icon02.png" alt="장바구니아이콘"></li>
+                                        <li><img src="./images/main/icon03.png" alt="결제아이콘"></li>
+                                    </ul>
+                                </div>
+
+                                <dl>
+                                    <dt>당근 재배키트</dt>
+                                    <dd>9,000원</dd>
+                                </dl>
+                            </a>
+                        </div><!--swiper-slide-->
+                        <div class="swiper-slide">
+                            <a href="./sub2_02_kit.html">
+                                <div class="new_img">
+                                    <img src="./images/main/new_item_red.png" alt="토마토키트">
+                                    <ul class="icon">
+                                        <li><img src="./images/main/icon01.png" alt="찜아이콘"></li>
+                                        <li><img src="./images/main/icon02.png" alt="장바구니아이콘"></li>
+                                        <li><img src="./images/main/icon03.png" alt="결제아이콘"></li>
+                                    </ul>
+                                </div>
+                                <dl>
+                                    <dt>토마토 재배키트</dt>
+                                    <dd>9,000원</dd>
+                                </dl>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./sub2_02_kit.html">
+                                <div class="new_img">
+                                    <img src="./images/main/new_item_green.png" alt="루꼴라키트">
+                                    <ul class="icon">
+                                        <li><img src="./images/main/icon01.png" alt="찜아이콘"></li>
+                                        <li><img src="./images/main/icon02.png" alt="장바구니아이콘"></li>
+                                        <li><img src="./images/main/icon03.png" alt="결제아이콘"></li>
+                                    </ul>
+                                </div>
+                                <dl>
+                                    <dt>루꼴라 재배키트</dt>
+                                    <dd>9,000원</dd>
+                                </dl>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./sub2_02_kit.html">
+                                <div class="new_img">
+                                    <img src="./images/main/new_item_blue.png" alt="스피아민트키트">
+                                    <ul class="icon">
+                                        <li><img src="./images/main/icon01.png" alt="찜아이콘"></li>
+                                        <li><img src="./images/main/icon02.png" alt="장바구니아이콘"></li>
+                                        <li><img src="./images/main/icon03.png" alt="결제아이콘"></li>
+                                    </ul>
+                                </div>
+                                <dl>
+                                    <dt>스피아민트 재배키트</dt>
+                                    <dd>9,000원</dd>
+                                </dl>
+                            </a>
+                        </div>
+                    </div><!--swiper-wrapper-->
+                    <div class="swiper-scrollbar new_bar"></div>
+                </div><!--swiper-->
+                <div class="nav_wrapper">
+                    <div class="swiper-button-next new_next"></div>
+                    <div class="swiper-button-prev new_prev"></div>
+                </div><!--nav_wrapper-->
+            </div><!--new_item-->
+        </div><!--new_inner-->
+
+
+        <div class="new_white_hidden">
+            <div class="new_white_wrapper">
+                <div class="new_text_box">
+                    <p>THE NEW ITEM</p>
+                    <p>THE NEW ITEM</p>
+                    <p>THE NEW ITEM</p>
+                    <p>THE NEW ITEM</p>
+                    <p>THE NEW ITEM</p>
+                </div><!--new_text_box-->
+                <div class="new_text_box">
+                    <p>THE NEW ITEM</p>
+                    <p>THE NEW ITEM</p>
+                    <p>THE NEW ITEM</p>
+                    <p>THE NEW ITEM</p>
+                    <p>THE NEW ITEM</p>
+                </div><!--new_text_box-->
+            </div><!--new_white_wrapper-->
+        </div><!--new_text_hidden-->
+
+
+        <div class="new_blue_hidden">
+            <div class="new_blue_wrapper">
+                <div class="new_text_box">
+                    <p>THE NEW ITEM</p>
+                    <p>THE NEW ITEM</p>
+                    <p>THE NEW ITEM</p>
+                    <p>THE NEW ITEM</p>
+                    <p>THE NEW ITEM</p>
+                </div><!--new_text_box-->
+                <div class="new_text_box">
+                    <p>THE NEW ITEM</p>
+                    <p>THE NEW ITEM</p>
+                    <p>THE NEW ITEM</p>
+                    <p>THE NEW ITEM</p>
+                    <p>THE NEW ITEM</p>
+                </div><!--new_text_box-->
+            </div><!--new_white_wrapper-->
+        </div><!--new_text_hidden-->
+    </div><!--new-->
+
+    <div id="sale">
+        <p class="new_rotate">
+            <img src="./images/main/weekend_rotate.png" alt="회전하는 이미지">
+        </p>
+        <!--배경색-->
+        <div class="sale_inner">
+            <!--가운데정렬, 플렉스컨테이너-->
+            <div class="title_box">
+                <h1 class="title">
+                    #WEEKEND <br>
+                    SALE
+                </h1>
+                <p class="sub_title">주말 쇼핑 찬스 🎉<br>매주 새로운 할인 상품을 만나보세요</p>
+                <div class="btn">
+                    <a href="./sub2_01_care.html" type="button" class="btn_bubble">
+                        더보기
+                        <span class="btn_bubble_inner">
+                            <span class="btn_bubble_itembox">
+                                <span class="btn_bubble_item"></span>
+                                <span class="btn_bubble_item"></span>
+                                <span class="btn_bubble_item"></span>
+                                <span class="btn_bubble_item"></span>
+                            </span>
+                        </span>
+                    </a>
+                </div><!--btn-->
+            </div><!--title_box-->
+
+
+            <div class="sale_item_box">
+                <div class="item_left" data-aos="flip-up" data-aos-duration="1000">
+                    <ul>
+                        <li>
+                            <a href="./sub2_04_tool.html">
+                                <div class="flip_box">
+                                    <div class="flip_front sale_item1">
+                                        <img src="./images/main/sale_item01.png" alt="주말 할인 상품1">
+                                    </div><!--flip_front-->
+
+                                    <div class="flip_back">
+                                        <dl>
+                                            <dt>식물일지</dt>
+                                            <dd>15,200원</dd>
+                                        </dl>
+                                    </div><!--flip_back-->
+                                </div><!--flip_box-->
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./sub2_03_pot.html">
+                                <div class="flip_box">
+                                    <div class="flip_front sale_item3">
+                                        <img src="./images/main/sale_item03.png" alt="주말 할인 상품3">
+                                    </div><!--flip_front-->
+
+                                    <div class="flip_back">
+                                        <dl>
+                                            <dt>머드 화분 화이트, 14cm</dt>
+                                            <dd>28,600원</dd>
+                                        </dl>
+                                    </div><!--flip_back-->
+                                </div><!--flip_box-->
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="./sub2_01_care.html">
+                                <div class="flip_box">
+                                    <div class="flip_front sale_item5">
+                                        <img src="./images/main/sale_item05.png" alt="주말 할인 상품5">
+                                    </div><!--flip_front-->
+
+                                    <div class="flip_back">
+                                        <dl>
+                                            <dt>벌레 퇴치제 리필 1L <br>
+                                                <span>
+                                                    (bug repellent Refill)
+                                                </span>
+                                            </dt>
+                                            <dd>20,900원</dd>
+                                        </dl>
+                                    </div><!--flip_back-->
+                                </div><!--flip_box-->
+                            </a>
+                        </li>
+                    </ul>
+                </div><!--item_left-->
+                <div class="item_right" data-aos="flip-down" data-aos-duration="1000">
+                    <ul>
+                        <li>
+                            <a href="./sub2_03_pot.html">
+                                <div class="flip_box">
+                                    <div class="flip_front sale_item2">
+                                        <img src="./images/main/sale_item02.png" alt="주말 할인 상품2">
+                                    </div><!--flip_front-->
+
+                                    <div class="flip_back">
+                                        <dl>
+                                            <dt>누오보 화분, 15cm</dt>
+                                            <dd>49,400원</dd>
+                                        </dl>
+                                    </div><!--flip_back-->
+                                </div><!--flip_box-->
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./sub2_01_care.html">
+                                <div class="flip_box">
+                                    <div class="flip_front sale_item4">
+                                        <img src="./images/main/sale_item04.png" alt="주말 할인 상품4">
+                                    </div><!--flip_front-->
+
+                                    <div class="flip_back">
+                                        <dl>
+                                            <dt>식물 영양제 리필 1L <br>
+                                                <span>(Foliar Spray Refill)</span>
+                                            </dt>
+                                            <dd>20,900원</dd>
+                                        </dl>
+                                    </div><!--flip_back-->
+                                </div><!--flip_box-->
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./sub2_03_pot.html">
+                                <div class="flip_box">
+                                    <div class="flip_front sale_item6">
+                                        <img src="./images/main/sale_item06.png" alt="주말 할인 상품6">
+                                    </div><!--flip_front-->
+
+                                    <div class="flip_back">
+                                        <dl>
+                                            <dt>딸기 고양이화분, 14cm </dt>
+                                            <dd>31,000원</dd>
+                                        </dl>
+                                    </div><!--flip_back-->
+                                </div><!--flip_box-->
+                            </a>
+                        </li>
+                    </ul>
+                </div><!--item_right-->
+            </div>
+
+        </div><!--sale_inner-->
+    </div><!--weekend_sale-->
+
+    <div id="coupon">
+        <div class="blue_box">
+            <!--파란배경-->
+            <ul class="blue_inner">
+                <li>회원가입 시 <br>
+                    적립금 3000원 지급 </li>
+                <li class="stand">
+                    <img src="./images/main/coupon_coin.png" alt="적립금이미지">
+                    <img src="./images/main/coupon_star01.png" alt="반짝이 이미지1" class="ab1">
+                    <img src="./images/main/coupon_star02.png" alt="반짝이 이미지2" class="ab2">
+                </li>
+            </ul>
+        </div><!--blue_box-->
+        <div class="green_box">
+            <ul class="green_inner">
+                <li> <span>지금 카톡 플친하면 ? <br>
+                        2000원 할인 쿠폰 증정</span>
+                </li>
+                <li class="stand2">
+                    <img src="./images/main/coupon.png" alt="쿠폰이미지">
+                    <img src="./images/main/coupon_kakao.png" alt="카카오톡이미지" class="ab3">
+                </li>
+            </ul>
+        </div><!--green_box -->
+
+
+        <p><img class="chek" src="./images/main/coupon_chek.png" alt=""></p>
+    </div><!--coupon-->
+
+    <div id="brand">
+        <!--가운데정렬-->
+        <div class="brnad_top">
+            <!--윗줄 플렉스 컨테이너-->
+            <div class="top_left" data-aos="fade-right">
+                <!--플렉스 컨테이너-->
+                <h1 class="title"><a href="./sub1_about.html">#BRAND</a></h1>
+                <ul>
+                    <li>
+                        <img src="./images/main/brand_01.jpg" alt="브랜드 이미지1">
+                        <p class="brand_hover">for plant</p>
+                    </li>
+                    <li class="yellow_bg">
+                        <h3>Family</h3>
+                        <h4>나의 곁에 함께하는 <br>
+                            우리 집 초록이들을 위해
+                        </h4>
+                    </li>
+                    <li class="pink_bg">
+                        <h3>Lovely</h3>
+                        <h4>사랑스러움 한가득, <br>
+                            행복을 주는 <br>
+                            소중한 존재를 위해</h4>
+                    </li>
+                    <li>
+                        <img src="./images/main/brand_02.jpg" alt="브랜드 이미지2">
+                        <p class="brand_hover">with plant</p>
+                    </li>
+                </ul>
+            </div><!--top_left-->
+            <div class="top_right" data-aos="fade-left">
+                <ul>
+                    <li>
+                        <img src="./images/main/brand_04.jpg" alt="브랜드이미지4">
+                        <p class="brand_hover">healing</p>
+
+                    </li>
+                    <li>
+                        <img src="./images/main/brand_05.jpg" alt="브랜드 이미지5">
+                        <p class="brand_hover">life style</p>
+                    </li>
+                    <li>
+                        <img src="./images/main/brand_06.jpg" alt="브랜드 이미지6">
+                        <div class="brand_hover">
+                            <h3>Plantly</h3>
+                            <h4>
+                                반려식물과 식집사,<br>
+                                모두 행복하도록 마음을 연결하는<br>
+                                라이프스타일 브랜드
+                        </div>
+                    </li>
+                </ul>
+                <!-- <h2>
+                    <img src="./images/main/brand_06.jpg" alt="">
+                    <h3>Plantly</h3>
+                    <h4>
+                        반려식물과 식집사,<br>
+                        모두 행복하도록 마음을 연결하는<br>
+                        라이프스타일 브랜드
+                    </h4>
+                </h2>-->
+
+            </div><!--top_right-->
+        </div><!--brnad_top-->
+        <div class="brnad_bottem">
+            <!--아래 플렉스 컨테이너-->
+            <ul>
+                <li></li>
+
+                <li>
+                    <a href="./sub1_about.html"><img src="./images/main/sub_logo.png" alt="서브로고">
+                    </a>
+                </li>
+            </ul>
+
+        </div><!--brnad_bottem-->
+    </div><!--brand-->
+
+    <div id="event">
+        <div class="event_inner">
+            <div class="title_box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                <h1 class="title">
+                    #EVENT
+                </h1>
+                <p class="sub_title">
+                    Plantly만의 <br>
+                    특별한 이벤트를 <br>
+                    즐겨보세요
+                </p>
+                <div class="btn">
+                    <a href="./sub3_community.html" type="button" class="btn_bubble btn_blue">
+                        더보기
+                        <span class="btn_bubble_inner">
+                            <span class="btn_bubble_itembox">
+                                <span class="btn_bubble_item"></span>
+                                <span class="btn_bubble_item"></span>
+                                <span class="btn_bubble_item"></span>
+                                <span class="btn_bubble_item"></span>
+                            </span>
+                        </span>
+                    </a>
+                </div><!--btn-->
+            </div><!--title_box-->
+
+            <div class="event_slid" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+                <!-- Swiper -->
+                <div class="swiper event_swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="./sub3_community.html#event">
+                                <img src="./images/main/event01.jpg" alt="이벤트이미지1">
+                                <div class="event_hover">
+                                    <h4>매주 새로운 할인으로 특템 찬스 </h4>
+                                    <p>자세히 보기</p>
+                                </div>
+                            </a>
+                        </div><!--swiper-slide-->
+                        <div class="swiper-slide">
+                            <a href="./sub3_community.html#event">
+                                <img src="./images/main/event02.jpg" alt="이벤트이미지3">
+                                <div class="event_hover">
+                                    <h4>모든 상품에 사용가능한 2000원쿠폰 즉시 증정 </h4>
+                                    <p>자세히 보기</p>
+                                </div>
+                            </a>
+
+                        </div><!--swiper-slide-->
+                        <div class="swiper-slide">
+                            <a href="./sub3_community.html#event">
+                                <img src="./images/main/event03.jpg" alt="이벤트이미지3">
+                                <div class="event_hover">
+                                    <h4>매일 출석 체크 하고 다양한 선물 받아가세요! </h4>
+                                    <p>자세히 보기</p>
+                                </div>
+                            </a>
+                        </div><!--swiper-slide-->
+                        <div class="swiper-slide">
+                            <a href="./sub3_community.html#event">
+                                <img src="./images/main/event01.jpg" alt="이벤트이미지1">
+                                <div class="event_hover">
+                                    <h4>매주 새로운 할인으로 특템 찬스 </h4>
+                                    <p>자세히 보기</p>
+                                </div>
+                            </a>
+                        </div><!--swiper-slide-->
+                        <div class="swiper-slide">
+                            <a href="./sub3_community.html#event">
+                                <img src="./images/main/event02.jpg" alt="이벤트이미지3">
+                                <div class="event_hover">
+                                    <h4>모든 상품에 사용가능한 2000원쿠폰 즉시 증정 </h4>
+                                    <p>자세히 보기</p>
+                                </div>
+                            </a>
+                        </div><!--swiper-slide-->
+                        <div class="swiper-slide">
+                            <a href="./sub3_community.html#event">
+                                <img src="./images/main/event03.jpg" alt="이벤트이미지3">
+                                <div class="event_hover">
+                                    <h4>매일 출석 체크 하고 다양한 선물 받아가세요! </h4>
+                                    <p>자세히 보기</p>
+                                </div>
+                            </a>
+                        </div><!--swiper-slide-->
+                    </div><!--swiper-wrapper-->
+                    <div class="swiper-scrollbar event_bar"></div>
+                </div><!--swiper-->
+            </div><!--event_slid-->
+        </div><!--event_inner-->
+    </div><!--event-->
+
+    <div id="footer">
+        <!--배경색, 포지션 기준-->
+        <div class="footer_inner">
+            <div class="f_logo">
+                Planty
+            </div><!--f_logo-->
+            <div class="footer_content">
+                <h3>COMPANNY INFORMATION</h3>
+                <ul class="info">
+                    <li>주식회사: Plantly</li>
+                    <li>대표이사: 김혜인</li>
+                    <li>소재지: 부산 중구 중앙대로 26</li>
+                    <li>emali : koj9832@gmail.com</li>
+                </ul>
+                <h3>SOCIAL</h3>
+                <ul class="info">
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img src="./images/main/insta.png" alt="인스타그램이미지">
+                            <p>instagram</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.kakaocorp.com/page/" target="_blank">
+                            <img src="./images/main/kakao.png" alt="카카오 이미지">
+                            <p>kakaotalk</p>
+                        </a>
+                    </li>
+                </ul>
+            </div><!--footer_content-->
+        </div><!--footer_inner-->
+
+
+        <div class="footer_ab"><img src="./images/main/footer_bubble.png" alt="풋터 이미지"></div>
+        <ul class="footer_info">
+            <li>이용약관</li>
+            <li>개인정보처리방침 </li>
+            <li>반품 및 환불</li>
+        </ul>
+    </div><!--footer-->
+
+
+
+
+    <!--스와이퍼-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--라이브러리 파일-->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+    <script src="./js/jquery-3.7.1.min.js"></script>
+
+    <!--aos-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!--js파일-->
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,509 @@
+@charset "utf-8";
+
+/*  font-family: 'jamsil';
+font-family: 'Magical Night (DEMO)';*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img,
+video,
+iframe {
+    vertical-align: middle;
+}
+
+body {
+    color: #020202;
+    font-size: 16px;
+    line-height: 1.2;
+    font-family: 'Pretendard';
+    min-width: 1450px;
+    cursor: url(../images/cusur.png), auto;
+}
+
+
+
+/*header*/
+header {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    transition: all 0.4s;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+}
+
+.header_inner {
+    width: 1320px;
+    margin: 0 auto;
+    padding: 5px 0;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 1320px;
+    position: relative;
+    display: flex;
+    z-index: 99;
+}
+
+.gnb {
+    display: flex;
+}
+
+.gnb>li {
+    color: rgba(0, 218, 88, 1);
+    font-family: 'jamsil';
+    font-weight: 300;
+    font-size: 20px;
+
+    padding-top: 7px;
+    position: relative;
+    text-align: center;
+}
+
+.gnb>li>a {
+    display: inline-block;
+    padding: 5px 60px;
+}
+
+.gnb>li:hover {
+    color: rgba(0, 218, 88, 0.5);
+}
+
+
+.sub {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    padding-top: 15px;
+    display: none;
+}
+
+.sub li {
+    padding: 0 10px;
+}
+
+.sub li a {
+    display: inline-block;
+    padding: 5px 5px;
+    padding-bottom: 2px;
+    font-size: 17px;
+    font-family: 'Pretendard';
+    color: rgba(2, 2, 2, 1);
+    text-align: center;
+    position: relative;
+}
+
+.sub li a span {
+    display: inline-block;
+}
+
+.sub li a span::after {
+    content: "";
+    height: 1px;
+    background-color: #020202;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    transition: all 0.4s;
+}
+
+.sub li:hover a span::after {
+    width: 100%;
+}
+
+.sub_bg {
+    height: 67px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    border-bottom: #00DA58 2px solid;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.5s;
+}
+
+
+/*contents*/
+#contents {
+    height: 280px;
+    background: url(../images/store/content_bg.jpg) no-repeat center center fixed;
+    margin-top: 65px;
+    margin-bottom: 50px;
+}
+
+#contents p {
+    width: 1320px;
+    margin: 0 auto;
+    font-size: 160px;
+    -webkit-text-stroke: 2px #f3fff8;
+    -webkit-text-fill-color: transparent;
+    font-family: 'jamsil';
+    font-weight: 800;
+    text-align: right;
+    padding-top: 140px;
+}
+
+/*produt*/
+#produt {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 48px;
+    font-family: 'jamsil';
+    font-weight: 800;
+    -webkit-text-stroke: 2px #2d2d2d;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+
+    padding-bottom: 30px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.title a {
+    display: inline-block;
+    padding: 0 90px;
+}
+
+
+
+#Care:hover a {
+    -webkit-text-fill-color: #00DA58;
+    -webkit-text-stroke: 2px #2d2d2d;
+}
+
+#kit:hover a {
+    -webkit-text-fill-color: #FF9B96;
+}
+
+.on a {
+    -webkit-text-fill-color: #FFE169;
+}
+
+#Tool:hover a {
+    -webkit-text-fill-color: #1A8FFA;
+}
+
+.product_container {
+    padding-bottom: 200px;
+}
+
+.product_content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 22px;
+    flex-wrap: wrap;
+}
+
+.product_content .poduct_item {
+    text-align: center;
+    width: 295px;
+    margin-right: 40px;
+    margin-bottom: 100px;
+}
+
+.product_content .poduct_item .img_box {
+    background-color: #fffdf1;
+    /*    padding: 23px 91px;*/
+    border: 3px solid #2d2d2d;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 30px;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+
+.ang_border_back {
+    clip-path: polygon(40px 0, calc(100% - 40px) 0, 100% 40px, 100% calc(100% - 40px), calc(100% - 40px) 100%, 40px 100%, 0 calc(100% - 40px), 0 40px);
+    background-color: #fffdf1;
+    position: relative;
+    background-color: #2d2d2d;
+    width: 295px;
+    height: 380px;
+
+}
+
+
+.product_content .poduct_item .ang_border {
+    clip-path: polygon(40px 0, calc(100% - 40px) 0, 100% 40px, 100% calc(100% - 40px), calc(100% - 40px) 100%, 40px 100%, 0 calc(100% - 40px), 0 40px);
+    border: none;
+    position: absolute;
+    top: 2px;
+    left: 1px;
+    width: 293px;
+    height: 376px;
+    border: 2px #2d2d2d solid;
+}
+
+.shadow:hover {
+    filter: drop-shadow(2px 2px 25px #FF9B96);
+}
+
+.img_box {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+    background-color: #fffcf3;
+
+}
+
+.poduct_item {
+    position: relative;
+}
+
+.sale_bg {
+    position: absolute;
+    top: -16px;
+    left: -16px;
+}
+
+
+.sale_bg p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #00DA58;
+    font-family: 'jamsil';
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.icon {
+    background-color: #00DA58;
+    display: flex;
+    width: 102%;
+    padding: 20px 60px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border: 2px solid #2d2d2d;
+    position: absolute;
+    top: 100%;
+    left: -2px;
+    transition: all 0.5s;
+}
+
+.icon img {
+    cursor: pointer;
+}
+
+.product_content .poduct_item .img_box:hover {
+    box-shadow: 2px 2px 30px #FF9B96;
+}
+
+.product_content .poduct_item .img_box:hover .icon {
+    top: 81%;
+}
+
+.product_content .poduct_item:hover .img_box>img {
+    transform: translateY(50%);
+}
+
+.product_content .poduct_item .img_box>img {
+    transition: all 0.4s;
+}
+
+.product_content .poduct_item:hover .hover_text {
+    opacity: 1;
+}
+
+.hover_text {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    opacity: 0;
+    transition: all 0.5s;
+    white-space: nowrap;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.item_info dt {
+    font-size: 16px;
+}
+
+.item_info dd {
+    font-size: 18px;
+    font-weight: 500;
+    color: #00DA58;
+}
+
+.sale_pr {
+    font-size: 21px;
+    padding-right: 5px;
+}
+
+.original {
+    color: #bdbdbd;
+    font-size: 14px;
+    text-decoration: line-through;
+    padding-left: 5px;
+}
+
+
+
+
+
+
+/*footer*/
+#footer {
+    background-color: #00DA58;
+    position: relative;
+    height: 250px;
+}
+
+
+.footer_inner {
+    display: flex;
+    color: #fff;
+    padding-left: 60px;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    width: 1320px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.f_logo {
+    font-family: 'Magical Night (DEMO)';
+    font-size: 60px;
+    padding-right: 65px;
+    width: 240px;
+    box-sizing: border-box;
+}
+
+
+/*.footer_content {
+    display: flex;
+
+}*/
+
+.footer_content {
+    width: 1080px;
+}
+
+
+
+.footer_info {
+    color: #fff;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_info li {
+    padding: 0 30px;
+}
+
+.info {
+    display: flex;
+    font-size: 12px;
+}
+
+.footer_content .info:nth-child(2) li {
+    border-right: 1px #fff solid;
+}
+
+.info li {
+    padding-right: 10px;
+    margin-right: 20px;
+}
+
+.footer_content .info:nth-child(2) li:last-child {
+    border: none;
+}
+
+.footer_content .info:nth-child(4) li {
+    display: flex;
+    align-items: center;
+}
+
+.footer_content .info:nth-child(4) li img {
+    padding-right: 10px;
+}
+
+.info a {
+    display: flex;
+    align-items: center;
+}
+
+.footer_inner::after {
+    content: "";
+    width: 100%;
+    border-bottom: 1px #fff solid;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.footer_content h3 {
+    font-size: 17px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+
+
+.footer_ab {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    z-index: -1;
+}
+
+.footer_ab img {
+    width: 100%;
+    animation: updown infinite 0.8s linear alternate;
+}
+
+@keyframes updown {
+    from {
+        transform: translateY(-10px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+
+/*---- scrollbar---*/
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #56E28F;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #eee;
+}
